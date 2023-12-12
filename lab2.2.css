@@ -1,0 +1,120 @@
+body {
+
+    background-image: url(https://images.unsplash.com/photo-1579546928937-641f7ac9bced?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform:none;
+    font-style: normal;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+article {
+    margin: 20px 0;
+padding: 20px;
+border: 1px solid black;
+border-radius: 15%;
+border-color: blueviolet;
+border-style: dashed;
+border-width: 5px;
+
+box-sizing: content-box;
+
+}
+
+.style-me1 {
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+
+#style-me2 {
+    color: blue;
+    font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+#style-me2.style-me1 {
+    color: blueviolet;
+    font-family: 'Josefin Sans', sans-serif;
+ 
+}
+
+.my-descendants-are-styled p {
+    background: rgba(255, 0, 0, 0.537);
+}
+
+.my-children-are-styled p {
+    background: rgba(255, 0, 0, 0.452);
+}
+
+.box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right:  30px;
+    margin-left: 30px;
+    width: 700px;
+    height: 60px;
+box-sizing: content-box;
+    overflow: auto;
+    outline: 10px;
+
+}
+
+div .box {
+    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-style {
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.position-absolute {
+
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left:50px;
+    right:50px;
+    z-index:100;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-sticky {
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#link {
+    color: blue;
+   text-decoration: none;
+}
+
+
+#link:hover {
+    color: purple; 
+    text-decoration: underline; 
+}
+
+#link:active {
+    color: red; 
+}
+
+#link:focus {
+    outline: 1px solid blue;
+}
+
+.calc-style {
+    width: calc(100vw - 100px);
+}

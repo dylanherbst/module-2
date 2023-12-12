@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(250, 239, 239);
+}
+header {
+    position: relative;
+    background-color: rgb(27, 147, 27) ;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align:center;
+}
+
+header h2 {
+    font-family: 'Lucida Sans';
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: -15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align:center;
+}
+div.flex {
+    display: flex;
+    margin-left: 40px;
+
+}
+
+
+#sideMenu {
+    width: 300px;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    display: flex;
+}
+   
+#sideMenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sideMenu li {
+    border: 1px solid #333; 
+    padding: 0px; 
+    margin-bottom: 5px; 
+    background-color: rgb(27, 147, 27) ; 
+    list-style-type: none; 
+    font-family: "Segoe UI";
+    font-weight: bold;
+    width: 250px;
+    border-radius: 10px;
+
+    
+}
+
+#sideMenu ul li a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    display: block ;
+}
+
+article {
+    position: relative;
+    flex-grow: 1;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans';
+
+
+}
+
+#sidebar {
+    width: auto;
+    position: relative;
+    border-radius: 10px;
+    margin: 10px;
+    width: 180px;
+    background-color: rgb(19, 151, 233);
+    display: block;
+    height: 320px;
+    
+}
+
+#sidebar h3 {
+    font-family: 'Lucida Sans';
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    color: azure;
+    line-height: 26px;
+
+}
+
+#sidebar p {
+    font-family: 'Lucida Sans';
+    margin-top: -20px;
+    padding: 10px;
+    color: azure;
+    line-height: 16px;
+    position: absolute
+}
+
